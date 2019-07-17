@@ -1,5 +1,8 @@
 {
   "name": "BookReview",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "raty-js": "^2.9.0"
+  }
 }

@@ -25,8 +25,10 @@ def index
     @book.category_id = params[:category_id]
 
     if @book.save
+        flash[:notice] = "保存しました"
         redirect_to root_path
     else
+        flash[:notice] = "保存出来ませんでした"
         render 'new'
     end
  end
